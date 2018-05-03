@@ -1,0 +1,37 @@
+{
+  "name": "float-placeholder",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Piotr Krajewski <mits87@gmail.com>",
+  "description": "Pure implementation of Float Label pattern (compatible with Bootstrap 4).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mits87/float-placeholder.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-4",
+    "bootstrap4",
+    "float-label",
+    "floatlabel",
+    "float-placeholder",
+    "floatplaceholder"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-minify": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

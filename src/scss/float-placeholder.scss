@@ -1,0 +1,38 @@
+$float-label-color: #9b9b9b !default;
+$float-label-color-active: #4AABE4 !default;
+
+.float-label {
+    color: $float-label-color;
+    font-size: 11px;
+    position: absolute;
+    z-index: 4;
+    left: 10px;
+    top: 6px;
+    padding: 0 3px;
+    opacity: 0;
+    visibility: hidden;
+    display: inline-block;
+    transition: color .15s ease-in-out, opacity .15s ease-in-out, visibility .15s ease-in-out, transform .15s ease-in-out;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        top: 8px;
+        left: 0;
+        position: absolute;
+        background: #ffffff;
+        z-index: -1;
+    }
+
+    &--active {
+        color: $float-label-color-active;
+    }
+}
+
+.form-group--float-label .float-label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-14px);
+}
