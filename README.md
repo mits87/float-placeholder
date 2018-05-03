@@ -1,7 +1,7 @@
 # float-placeholder
 > Floating label input.
 
-Checkout the [DEMO](https://jsfiddle.net/mits87/r6sx5mzk/)
+Checkout the [DEMO](https://jsfiddle.net/mits87/r6sx5mzk/2/)
 
 __Install it:__
 
